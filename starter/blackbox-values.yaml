@@ -66,7 +66,7 @@ strategy:
 image:
   registry: quay.io
   repository: prometheus/blackbox-exporter
-  tag: v0.19.0
+  tag: v0.25.0
   pullPolicy: IfNotPresent
 
   ## Optionally specify an array of imagePullSecrets.
@@ -114,7 +114,7 @@ config:
         - 200
 #         # - 401
 #         # - 403
-        bearer_token: 
+        bearer_token: RG3TVNQBKTP6IO459MMZ256EY1OIYGN4GQJ34ICQHK774CA832
 # Set custom config path, other than default /config/blackbox.yaml. If let empty, path will be "/config/blackbox.yaml"
 # configPath: "/foo/bar"
 
